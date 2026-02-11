@@ -1,0 +1,94 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="boardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fdf4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#fef3c7"/>
+  
+  <!-- Title -->
+  <text x="300" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" 
+        fill="#ea580c" text-anchor="middle">Smart Classroom VR</text>
+  
+  <!-- Back wall -->
+  <rect x="80" y="70" width="440" height="240" rx="8" fill="#f5f5f4" stroke="#78716c" stroke-width="2"/>
+  
+  <!-- Digital Whiteboard -->
+  <rect x="120" y="90" width="360" height="180" rx="6" fill="url(#boardGrad)" stroke="#22c55e" stroke-width="3"/>
+  
+  <!-- Content on board - diagram -->
+  <g>
+    <text x="300" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#166534" text-anchor="middle">Interactive Learning</text>
+    
+    <!-- Mind map circles -->
+    <circle cx="200" cy="160" r="25" fill="#86efac" stroke="#22c55e" stroke-width="2"/>
+    <text x="200" y="166" font-family="Arial, sans-serif" font-size="10" fill="#166534" text-anchor="middle">Video</text>
+    
+    <circle cx="300" cy="160" r="25" fill="#86efac" stroke="#22c55e" stroke-width="2"/>
+    <text x="300" y="166" font-family="Arial, sans-serif" font-size="10" fill="#166534" text-anchor="middle">Collab</text>
+    
+    <circle cx="400" cy="160" r="25" fill="#86efac" stroke="#22c55e" stroke-width="2"/>
+    <text x="400" y="166" font-family="Arial, sans-serif" font-size="10" fill="#166534" text-anchor="middle">AI</text>
+    
+    <!-- Connecting lines -->
+    <line x1="225" y1="160" x2="275" y2="160" stroke="#22c55e" stroke-width="2"/>
+    <line x1="325" y1="160" x2="375" y2="160" stroke="#22c55e" stroke-width="2"/>
+    
+    <!-- Bottom elements -->
+    <rect x="160" y="210" width="80" height="40" rx="4" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="200" y="233" font-family="Arial, sans-serif" font-size="9" fill="#166534" text-anchor="middle">Smart Board</text>
+    
+    <rect x="260" y="210" width="80" height="40" rx="4" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="300" y="233" font-family="Arial, sans-serif" font-size="9" fill="#166534" text-anchor="middle">AR/VR Ready</text>
+    
+    <rect x="360" y="210" width="80" height="40" rx="4" fill="#d1fae5" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="400" y="233" font-family="Arial, sans-serif" font-size="9" fill="#166534" text-anchor="middle">Cloud Sync</text>
+  </g>
+  
+  <!-- Projector -->
+  <g>
+    <rect x="270" y="50" width="60" height="15" rx="3" fill="#4b5563" stroke="#1f2937" stroke-width="1"/>
+    <circle cx="300" cy="57.5" r="4" fill="#3b82f6" opacity="0.7"/>
+    <line x1="295" y1="65" x2="285" y2="90" stroke="#fbbf24" stroke-width="8" opacity="0.3"/>
+    <line x1="300" y1="65" x2="300" y2="90" stroke="#fbbf24" stroke-width="8" opacity="0.3"/>
+    <line x1="305" y1="65" x2="315" y2="90" stroke="#fbbf24" stroke-width="8" opacity="0.3"/>
+  </g>
+  
+  <!-- Student desks -->
+  <g>
+    <!-- Desk 1 -->
+    <rect x="100" y="330" width="80" height="50" rx="4" fill="#92400e" stroke="#78350f" stroke-width="1.5"/>
+    <rect x="110" y="325" width="60" height="8" rx="2" fill="#d97706" stroke="#92400e" stroke-width="1"/>
+    <circle cx="140" cy="318" r="6" fill="#3b82f6" opacity="0.6"/>
+    
+    <!-- Desk 2 -->
+    <rect x="260" y="330" width="80" height="50" rx="4" fill="#92400e" stroke="#78350f" stroke-width="1.5"/>
+    <rect x="270" y="325" width="60" height="8" rx="2" fill="#d97706" stroke="#92400e" stroke-width="1"/>
+    <circle cx="300" cy="318" r="6" fill="#3b82f6" opacity="0.6"/>
+    
+    <!-- Desk 3 -->
+    <rect x="420" y="330" width="80" height="50" rx="4" fill="#92400e" stroke="#78350f" stroke-width="1.5"/>
+    <rect x="430" y="325" width="60" height="8" rx="2" fill="#d97706" stroke="#92400e" stroke-width="1"/>
+    <circle cx="460" cy="318" r="6" fill="#3b82f6" opacity="0.6"/>
+  </g>
+  
+  <!-- Feature boxes -->
+  <g>
+    <rect x="20" y="140" width="50" height="50" rx="5" fill="white" stroke="#f59e0b" stroke-width="2"/>
+    <text x="45" y="160" font-family="Arial, sans-serif" font-size="24" fill="#f59e0b" text-anchor="middle">📱</text>
+    <text x="45" y="180" font-family="Arial, sans-serif" font-size="7" fill="#78716c" text-anchor="middle">Touch</text>
+  </g>
+  
+  <g>
+    <rect x="530" y="140" width="50" height="50" rx="5" fill="white" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="555" y="160" font-family="Arial, sans-serif" font-size="24" fill="#8b5cf6" text-anchor="middle">🎥</text>
+    <text x="555" y="180" font-family="Arial, sans-serif" font-size="7" fill="#78716c" text-anchor="middle">Record</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="300" y="395" font-family="Arial, sans-serif" font-size="13" font-style="italic" 
+        fill="#78716c" text-anchor="middle">Experience the future of education</text>
+</svg>

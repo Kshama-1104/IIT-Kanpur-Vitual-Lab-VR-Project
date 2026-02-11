@@ -1,0 +1,106 @@
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="controllerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3f4f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e5e7eb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="700" height="500" fill="#f9fafb"/>
+  
+  <!-- Title -->
+  <text x="350" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        fill="#1f2937" text-anchor="middle">VR Controller Guide</text>
+  
+  <!-- Left Controller -->
+  <g>
+    <text x="175" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+          fill="#4b5563" text-anchor="middle">Left Controller</text>
+    
+    <!-- Controller body -->
+    <ellipse cx="175" cy="200" rx="60" ry="120" fill="url(#controllerGrad)" stroke="#374151" stroke-width="2"/>
+    
+    <!-- Thumbstick -->
+    <circle cx="175" cy="140" r="15" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+    <circle cx="175" cy="140" r="8" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+    
+    <!-- X and Y buttons -->
+    <circle cx="150" cy="180" r="10" fill="#3b82f6" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="150" y="185" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">X</text>
+    
+    <circle cx="200" cy="180" r="10" fill="#3b82f6" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="200" y="185" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Y</text>
+    
+    <!-- Trigger -->
+    <path d="M 165 280 Q 175 300 185 280" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+    <text x="175" y="310" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Trigger</text>
+    
+    <!-- Grip -->
+    <rect x="130" y="220" width="8" height="40" rx="4" fill="#10b981" stroke="#065f46" stroke-width="1"/>
+    <text x="110" y="245" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Grip</text>
+    
+    <rect x="212" y="220" width="8" height="40" rx="4" fill="#10b981" stroke="#065f46" stroke-width="1"/>
+    <text x="240" y="245" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Grip</text>
+  </g>
+  
+  <!-- Right Controller -->
+  <g>
+    <text x="525" y="80" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+          fill="#4b5563" text-anchor="middle">Right Controller</text>
+    
+    <!-- Controller body -->
+    <ellipse cx="525" cy="200" rx="60" ry="120" fill="url(#controllerGrad)" stroke="#374151" stroke-width="2"/>
+    
+    <!-- Thumbstick -->
+    <circle cx="525" cy="140" r="15" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+    <circle cx="525" cy="140" r="8" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+    
+    <!-- A and B buttons -->
+    <circle cx="500" cy="180" r="10" fill="#10b981" stroke="#065f46" stroke-width="1.5"/>
+    <text x="500" y="185" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">A</text>
+    
+    <circle cx="550" cy="180" r="10" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+    <text x="550" y="185" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">B</text>
+    
+    <!-- Trigger -->
+    <path d="M 515 280 Q 525 300 535 280" fill="#ef4444" stroke="#991b1b" stroke-width="1.5"/>
+    <text x="525" y="310" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Trigger</text>
+    
+    <!-- Grip -->
+    <rect x="480" y="220" width="8" height="40" rx="4" fill="#10b981" stroke="#065f46" stroke-width="1"/>
+    <text x="460" y="245" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Grip</text>
+    
+    <rect x="562" y="220" width="8" height="40" rx="4" fill="#10b981" stroke="#065f46" stroke-width="1"/>
+    <text x="590" y="245" font-family="Arial, sans-serif" font-size="9" fill="#374151" text-anchor="middle">Grip</text>
+  </g>
+  
+  <!-- Action Legend -->
+  <g>
+    <rect x="100" y="370" width="500" height="100" rx="8" fill="white" stroke="#d1d5db" stroke-width="2"/>
+    
+    <text x="350" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" 
+          fill="#374151" text-anchor="middle">Control Actions</text>
+    
+    <!-- Action items -->
+    <g>
+      <circle cx="130" cy="420" r="6" fill="#ef4444"/>
+      <text x="145" y="425" font-family="Arial, sans-serif" font-size="11" fill="#374151">Trigger - Interact/Select</text>
+    </g>
+    
+    <g>
+      <circle cx="130" cy="445" r="6" fill="#10b981"/>
+      <text x="145" y="450" font-family="Arial, sans-serif" font-size="11" fill="#374151">Grip - Grab Objects</text>
+    </g>
+    
+    <g>
+      <circle cx="380" cy="420" r="6" fill="#6b7280"/>
+      <text x="395" y="425" font-family="Arial, sans-serif" font-size="11" fill="#374151">Thumbstick - Move/Teleport</text>
+    </g>
+    
+    <g>
+      <circle cx="380" cy="445" r="6" fill="#3b82f6"/>
+      <text x="395" y="450" font-family="Arial, sans-serif" font-size="11" fill="#374151">Buttons - Menu/Actions</text>
+    </g>
+  </g>
+</svg>
