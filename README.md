@@ -13,31 +13,12 @@
 
 **Experience cutting-edge virtual laboratories designed for education, research, and hands-on learning**
 
-[🚀 Quick Start](#-quick-start) • [📥 Downloads](#-download-projects) • [📖 Documentation](#-documentation) • [🤝 Contributing](#-contributing)
 
 ---
 
 </div>
 
-## 📑 Table of Contents
 
-- [🎯 Overview](#-overview)
-- [✨ Why VR Labs?](#-why-vr-labs)
-- [🔬 Our Virtual Laboratories](#-our-virtual-laboratories)
-  - [CRO Virtual Lab](#1%EF%B8%8F⃣-cro---cathode-ray-oscilloscope-virtual-lab)
-  - [Smart Classroom](#2%EF%B8%8F⃣-smart-classroom---future-of-education)
-  - [IIT Kanpur Lab](#3%EF%B8%8F⃣-virtual-reality-iit-kanpur---premier-research-lab)
-- [📥 Download Projects](#-download-projects)
-- [💻 System Requirements](#-system-requirements)
-- [🚀 Quick Start](#-quick-start)
-- [🎮 Controls Guide](#-controls-guide)
-- [📊 Impact & Statistics](#-impact--statistics)
-- [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
-- [🗺️ Roadmap](#%EF%B8%8F-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-
----
 
 ## 🎯 Overview
 
@@ -223,27 +204,6 @@ This project has been recognized for:
 - **Scalability** – Supporting unlimited students simultaneously
 - **Innovation in EdTech** – Pioneering VR-based laboratory education in India
 
----
-
-## 📥 Download Projects
-
-<div align="center">
-
-All projects are **completely free** and available for immediate download!
-
-</div>
-
-| Project | Description | Size | Download Link |
-|---------|-------------|------|---------------|
-| 🎛️ **CRO Virtual Lab** | Oscilloscope training environment | ~2.5 GB | [📥 Download](https://drive.google.com/drive/folders/1K5hWhjhggwnFbJ0WBe0Bd3duo2R_6fwk?usp=sharing) |
-| 🏫 **Smart Classroom** | Future education simulation | ~3.0 GB | [📥 Download](https://drive.google.com/drive/folders/17NQI5S43ktI487ihOpryKS-n7oMb9vT7?usp=sharing) |
-| 🏛️ **IIT Kanpur Lab** | Premier research laboratory | ~3.2 GB | [📥 Download](https://drive.google.com/drive/folders/1IXgQFTEMI-wwhyMMsouXwG4wx9Uzqo9l?usp=sharing) |
-
-**📄 Each download includes:**
-- Complete VR application
-- Comprehensive user manual (Instructions.pdf)
-- Quick start guide
-- Troubleshooting documentation
 
 ---
 
@@ -555,202 +515,15 @@ Efficiency Gain: 5.3x more hands-on time
 
 ---
 
-## 🤝 Contributing
+## 👤 Creator
 
-We welcome contributions from developers, educators, researchers, and enthusiasts! Here's how you can help make VR Labs even better:
-
-### Ways to Contribute
-
-| Type | Description | Getting Started |
-|------|-------------|-----------------|
-| 🐛 **Bug Reports** | Found a bug? Let us know! | [Report Issue](https://github.com/yourusername/vr-labs/issues) |
-| ✨ **Feature Requests** | Have an idea? Share it! | [Request Feature](https://github.com/yourusername/vr-labs/issues) |
-| 📝 **Documentation** | Improve guides and docs | See [Docs Contributing](CONTRIBUTING.md#documentation) |
-| 🎨 **3D Assets** | Create models & textures | See [Asset Guidelines](CONTRIBUTING.md#assets) |
-| 💻 **Code** | Submit bug fixes & features | See [Code Guidelines](CONTRIBUTING.md#code) |
-| 🌍 **Translations** | Localize for your language | See [Translation Guide](CONTRIBUTING.md#translations) |
-| 🎓 **Educational Content** | Design new experiments | See [Experiment Template](CONTRIBUTING.md#experiments) |
-
-### Contribution Process
-
-1. **Fork** this repository
-2. **Clone** your fork locally
-   ```bash
-   git clone https://github.com/yourusername/vr-labs.git
-   ```
-3. **Create** a feature branch
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-4. **Make** your changes following our guidelines
-5. **Commit** with clear messages
-   ```bash
-   git commit -m "Add: Amazing new feature"
-   ```
-6. **Push** to your fork
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-7. **Open** a Pull Request with detailed description
-
-### Code Standards
-
-- Follow C# coding conventions
-- Comment complex logic
-- Write unit tests for new features
-- Ensure VR performance targets (90 FPS minimum)
-- Test on multiple VR platforms before submitting
-
-### Community Guidelines
-
-- Be respectful and inclusive
-- Provide constructive feedback
-- Help others in discussions
-- Follow our [Code of Conduct](CODE_OF_CONDUCT.md)
-
----
-
-## 📚 Documentation
-
-### For Students
-
-- [Getting Started Guide](docs/getting-started.md)
-- [CRO Lab Manual](docs/cro-manual.md)
-- [Smart Classroom Guide](docs/classroom-guide.md)
-- [IIT Kanpur Lab Experiments](docs/iitk-experiments.md)
-- [FAQ & Troubleshooting](docs/faq.md)
-
-### For Educators
-
-- [Integration Guide](docs/educator-integration.md)
-- [Curriculum Mapping](docs/curriculum.md)
-- [Assessment Tools](docs/assessment.md)
-- [Classroom Management](docs/management.md)
-
-### For Developers
-
-- [Build Instructions](docs/building.md)
-- [Architecture Overview](docs/architecture.md)
-- [API Documentation](docs/api.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-
----
-
-## ❓ Frequently Asked Questions
-
-**Q: Do I need a VR headset to use these labs?**  
-A: Yes, these are VR-native applications designed for immersive headsets. Some desktop preview modes may be available in future updates.
-
-**Q: Which VR headset works best?**  
-A: Meta Quest 3 offers the best standalone experience, while Valve Index provides superior tracking for PC VR. All supported headsets deliver excellent results.
-
-**Q: Are these projects completely free?**  
-A: Yes! All VR Labs are free and open-source under the MIT License. No hidden costs or subscriptions.
-
-**Q: Can I use these for my school or university?**  
-A: Absolutely! These labs are specifically designed for educational use. We encourage schools and universities to integrate them into curricula.
-
-**Q: Can I modify the source code?**  
-A: Yes! The MIT License allows modification and distribution. We encourage customization for your specific needs.
-
-**Q: How often are updates released?**  
-A: We aim for quarterly updates with new features, bug fixes, and content additions. Follow this repository for notifications.
-
-**Q: Do these labs work offline?**  
-A: Yes, once downloaded, all labs function completely offline. Internet is only needed for updates.
-
-**Q: Is multiplayer/collaborative mode available?**  
-A: Not currently, but it's planned for Q3 2026. Check the [Roadmap](#%EF%B8%8F-roadmap) for details.
-
-**Q: How can I report bugs or request features?**  
-A: Use the [GitHub Issues](https://github.com/yourusername/vr-labs/issues) section or contribute directly via pull requests.
-
-**Q: Are there any privacy concerns?**  
-A: VR Labs do not collect any personal data. All progress is stored locally on your device.
-
----
-
-## 🏆 Recognition & Awards
-
-- 🥇 **National Education Innovation Award 2025**
-- 🎓 **Featured in EdTech India Magazine**
-- 🌟 **Top 10 Educational VR Projects 2025**
-- 📰 **Coverage in The Times of India Education Supplement**
-
----
-
-## 💬 Community & Support
-
-### Get Help
-
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/yourusername/vr-labs/discussions)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/yourusername/vr-labs/issues)
-- 📧 **Email:** support@vrlabs.edu (for institutional inquiries)
-
-### Stay Connected
-
-- 🌐 **Website:** [www.vrlabs.edu](https://vrlabs.edu)
-- 📱 **Twitter:** [@VRLabsEdu](https://twitter.com/vrlabsedu)
-- 📘 **LinkedIn:** [VR Labs Education](https://linkedin.com/company/vrlabs)
-- 🎥 **YouTube:** [VR Labs Channel](https://youtube.com/vrlabs)
-
-### Join the Community
-
-- Share your experiences and experiments
-- Collaborate with other educators
-- Get early access to new features
-- Influence future development
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for complete details.
-
-### What This Means
-
-✅ **You CAN:**
-- Use commercially
-- Modify and distribute
-- Use privately
-- Include in proprietary software (with attribution)
-
-❌ **You CANNOT:**
-- Hold the authors liable
-- Use without attribution
-
----
-
-## 🙏 Acknowledgments
-
-### Special Thanks
-
-- **Indian Institute of Technology Kanpur** – For inspiration and technical guidance
-- **Unity Technologies** – For their excellent VR development platform
-- **Open-Source Community** – For tools, libraries, and support
-- **Beta Testers** – Students and educators who provided invaluable feedback
-- **3D Artists** – Contributors who created lab assets
-
-### Built With ❤️
-
-This project is built with passion for education and a belief that everyone deserves access to quality practical learning, regardless of their location or economic background.
+- 💼 **Created by**: Kshama Mishra
 
 ---
 
 <div align="center">
 
-### 🌟 Star this repository if you find it useful!
 
-**Made with ❤️ for Education**
-
-*Bridging the gap between theory and practice through Virtual Reality*
-
-[⬆ Back to Top](#-virtual-reality-labs)
-
----
-
-**Last Updated:** February 2026  
-**Version:** 1.2.0  
-**Contributors:** 15+ educators and developers
+Created by Kshama Mishra
 
 </div>
